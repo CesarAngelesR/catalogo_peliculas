@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title th:text="${titulo}"></title>	
+	</head>	
+	<body>
+		<h1 th:text="${titulo}"></h1>
+		<div>
+			<h2>Parametro recibido por url</h2>
+			El parametro es: <span style="color: fuchsia;" th:text="${parametro}"></span> 
+			El otro valor es: <span style="color:blue;" th:text="${otroValor}"></span> 
+		</div>
+		
+		<div>
+			<h2>Parametro recibido por path</h2>
+			El jugador es: <span style="color: fuchsia;" th:text="${jugador.getNombre()}"></span> 
+			(<span style="color:blue;" th:text="${jugador.getNumero()}"></span>) 
+		</div>
+
+	</body>
+</html>

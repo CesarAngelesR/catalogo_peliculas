@@ -1,0 +1,46 @@
+<header th:fragment="header">
+	<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Catalogo Peliculas</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="/home">Catalogo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="/pelicula">Nueva Pelicula</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="/listado">Administrar</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div th:if="${msj != null}" th:text="${msj}" th:class="${tipoMsj != null ? 'alert alert-' + tipoMsj : 'alert'}">
+		
+	</div>
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	    // Obtener la URL actual
+	    var currentUrl = window.location.href;
+
+	    // Obtener todos los enlaces del menú
+	    var navLinks = document.querySelectorAll(".navbar-nav .nav-item .nav-link");
+
+	    // Iterar sobre cada enlace y verificar si coincide con la URL actual
+	    navLinks.forEach(function(navLink) {
+	        // Comparar la URL actual con el href del enlace
+	        if (navLink.href === currentUrl) {
+	            // Si coincide, remover la clase 'active' si está presente
+	            navLink.classList.remove("active");
+	        }
+	    });
+	});
+	</script>
+
+</header>

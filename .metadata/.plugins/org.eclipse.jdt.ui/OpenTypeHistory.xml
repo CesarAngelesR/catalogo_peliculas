@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=practicapeliculas/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.practicaspring.practicapeliculas.services{IGeneroService.java[IGeneroService" modifiers="513" timestamp="1720566739380"/>
+    <typeInfo handle="=practicapeliculas/C:\/Users\/cesar.angeles\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.4.9.Final\/hibernate-core-6.4.9.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.4.9.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.id.factory(IdentifierGeneratorFactory.class[IdentifierGeneratorFactory" modifiers="1537" timestamp="1720223601696"/>
+    <typeInfo handle="=practicapeliculas/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.practicaspring.practicapeliculas.services{IPeliculasService.java[IPeliculasService" modifiers="513" timestamp="1721675284907"/>
+    <typeInfo handle="=practicapeliculas/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.practicaspring.practicapeliculas.services{IActorService.java[IActorService" modifiers="513" timestamp="1720639165521"/>
+</typeInfoHistroy>
